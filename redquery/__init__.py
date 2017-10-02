@@ -1,4 +1,7 @@
-from urlparse import urljoin
+from future import standard_library
+standard_library.install_aliases()
+from builtins import object
+from urllib.parse import urljoin
 import json
 import time
 
